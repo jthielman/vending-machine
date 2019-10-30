@@ -15,9 +15,9 @@ const checkLoginStatus = () => {
       authDiv.addClass('hide');
     } else {
       // noboby is logged in
-      stockDiv.removeClass('hide');
-      logoutNavbar.removeClass('hide');
-      authDiv.addClass('hide');
+      stockDiv.addClass('hide');
+      logoutNavbar.addClass('hide');
+      authDiv.removeClass('hide');
     }
   });
 };
