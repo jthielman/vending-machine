@@ -1,0 +1,42 @@
+{
+  "snack1": {
+    "imageUrl": "https://www.dollargeneral.com/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/0/0/00773801.jpg",
+    "name": "Skittles",
+    "price": 75,
+    "currentStocked": 2,
+    "lifetimeNum": 4,
+    "uid": "PZOccjKfxlYevgQFmfjeONbdFbH3"
+  },
+  "snack2": {
+    "imageUrl": "https://i5.walmartimages.com/asr/d88e276f-72e6-49a3-b0ed-3504051a7de1_1.8040a12e97e51ef511d0dcd22838db1e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "name": "M&Ms",
+    "price": 75,
+    "currentStocked": 5,
+    "lifetimeNum": 10,
+    "uid": "PZOccjKfxlYevgQFmfjeONbdFbH3"
+  },
+  "snack3": {
+    "imageUrl": "https://www.cvs.com/bizcontent/merchandising/productimages/large/4000042431.jpg",
+    "name": "Snickers",
+    "price": 75,
+    "currentStocked": 14,
+    "lifetimeNum": 15,
+    "uid": "PZOccjKfxlYevgQFmfjeONbdFbH3"
+  },
+  "snack4": {
+    "imageUrl": "https://cdn.influenster.com/media/product/image/bc010f9a9cb8f3f8a65aaf418fdb1a68.png.750x750_q85ss0_progressive.jpg",
+    "name": "Butterfinger",
+    "price": 128,
+    "currentStocked": 1,
+    "lifetimeNum": 1000,
+    "uid": "PZOccjKfxlYevgQFmfjeONbdFbH3"
+  },
+  "snack5": {
+    "imageUrl": "https://www.dollargeneral.com/media/catalog/product/cache/image/beff4985b56e3afdbeabfc89641a4582/0/0/00041419714713.jpg",
+    "name": "Combos",
+    "price": 2000,
+    "currentStocked": 200,
+    "lifetimeNum": 212,
+    "uid": "12345"
+  }
+}
