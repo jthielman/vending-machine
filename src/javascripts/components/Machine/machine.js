@@ -13,7 +13,7 @@ const buildTheMachine = () => {
         domString += snacks.buildSnackCard(position);
       });
       domString += '</div>';
-      utilities.printToDom('stock', domString);
+      utilities.printToDom('machine', domString);
       // Build a dom string
       // h2 that says VENDING MACHINE
       // div with an id = snack-section, class=d-flex flex-wrap
