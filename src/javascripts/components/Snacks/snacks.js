@@ -6,7 +6,7 @@ const buildSnackCard = (pos) => {
   let string = '';
   if (currentSnack.name) {
     string += `
-    <div class="card">
+    <div class="card col-4">
     <img src="${currentSnack.imageUrl}" class="card-img-top" alt="${currentSnack.name}">
     <div class="card-body">
     <h5 class="card-title">${currentSnack.name}</h5>
@@ -16,7 +16,7 @@ const buildSnackCard = (pos) => {
     </div>
     `;
   } else {
-    string += `<div class="card">
+    string += `<div class="card col-4">
     <h5 class="card-title">EMPTY</h5>
     <p class="card-text">${pos.position}</p>
     </div>
