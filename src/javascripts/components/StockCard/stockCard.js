@@ -1,3 +1,4 @@
+import 'bootstrap';
 import './stockCard.scss';
 
 const makeASnack = (snack) => {
@@ -8,6 +9,9 @@ const makeASnack = (snack) => {
         <p class="card-text">$${snack.price}</p>
         <p class="card-text">$${snack.position.position}</p>
       </div>
+      <div class="card-footer">
+        <button class="btn btn-danger delete-snack-position" id="${snack.snackPositionId}">Remove from ${snack.position.position}</button>
+        </div>
     </div>  `;
   return domString;
 };
