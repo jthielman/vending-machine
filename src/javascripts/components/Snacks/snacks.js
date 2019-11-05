@@ -7,19 +7,19 @@ const buildSnackCard = (pos) => {
   if (currentSnack.name) {
     string += `
     <div class="card col-4">
-    <img src="${currentSnack.imageUrl}" class="card-img-top" alt="${currentSnack.name}">
-    <div class="card-body">
-    <h5 class="card-title">${currentSnack.name}</h5>
-    <p class="card-text">$${(currentSnack.price / 100).toFixed(2)}</p>
-    <p class="card-text">${pos.position}</p>
-    </div>
+      <img src="${currentSnack.imageUrl}" class="card-img-top" alt="${currentSnack.name}">
+      <div class="card-body">
+        <h5 class="card-title">${currentSnack.name}</h5>
+        <p class="card-text">$${(currentSnack.price / 100).toFixed(2)}</p>
+        <p class="card-text">${pos.position}</p>
+      </div>
     </div>
     `;
   } else {
-    string += `<div class="card col-4">
-    <h5 class="card-title">EMPTY</h5>
+    string += `
+    <div class="card col-4">
+      <h5 class="card-title">EMPTY</h5>
     <p class="card-text">${pos.position}</p>
-    </div>
     </div>`;
   }
   return string;
