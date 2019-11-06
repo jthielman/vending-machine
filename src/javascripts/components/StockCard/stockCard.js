@@ -6,7 +6,7 @@ const makeASnack = (snack) => {
     <div class="card col-3 snack-card">
       <div class="card-body">
         <h5 class="card-title">${snack.name}</h5>
-        <p class="card-text">$${snack.price}</p>
+        <p class="card-text">$${(snack.price / 100).toFixed(2)}</p>
       </div>
       <div class="card-footer">`;
   if (snack.snackPositionId !== '') {
